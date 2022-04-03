@@ -125,6 +125,7 @@ alias omu='omz update'
 alias omr='omz reload'
 alias ls='ls -lah --color=always'
 alias gs='git status'
+alias grep='grep -ni --color=always'
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
