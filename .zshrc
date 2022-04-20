@@ -36,7 +36,7 @@ ZSH_THEME="powerlevel10k/powerlevel10k"
 # zstyle ':omz:update' mode reminder  # just remind me to update when it's time
 
 # Uncomment the following line to change how often to auto-update (in days).
- zstyle ':omz:update' frequency 1
+# zstyle ':omz:update' frequency 1
 
 # Uncomment the following line if pasting URLs and other text is messed up.
 # DISABLE_MAGIC_FUNCTIONS="true"
@@ -117,6 +117,7 @@ alias sysr='sudo systemctl restart'
 alias sysst='sudo systemctl stop'
 alias sysd='sudo systemctl disable'
 alias sysstat='systemctl status'
+alias sysstart='sudo systemctl start'
 alias up='sudo apt update ; sudo apt upgrade -y ; sudo apt autoremove -y ; sudo apt clean ; sudo apt autoclean'
 alias s='sudo'
 alias n='nano'
