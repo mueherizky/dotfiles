@@ -112,9 +112,9 @@ source $ZSH/oh-my-zsh.sh
 #custom aliases
 alias i='sudo apt update ; sudo apt install'
 alias rmv='sudo apt purge'
-alias sysen='sudo systemctl enable --now'
+alias sysen='sudo systemctl enable'
 alias sysr='sudo systemctl restart'
-alias sysst='sudo systemctl stop'
+alias sysstop='sudo systemctl stop'
 alias sysd='sudo systemctl disable'
 alias sysstat='systemctl status'
 alias sysstart='sudo systemctl start'
