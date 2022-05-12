@@ -118,6 +118,7 @@ alias up="sudo pacman -Syu"
 alias rmv="sudo pacman -Rns"
 alias i="sudo pacman -S"
 alias yup="yay -Syu --aur"
+alias yi="yay -S"
 
 # custom aliases
 alias s="sudo"
