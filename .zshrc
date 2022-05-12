@@ -36,7 +36,7 @@ ZSH_THEME="powerlevel10k/powerlevel10k"
 # zstyle ':omz:update' mode reminder  # just remind me to update when it's time
 
 # Uncomment the following line to change how often to auto-update (in days).
-# zstyle ':omz:update' frequency 1
+# zstyle ':omz:update' frequency 13
 
 # Uncomment the following line if pasting URLs and other text is messed up.
 # DISABLE_MAGIC_FUNCTIONS="true"
@@ -78,8 +78,8 @@ ZSH_THEME="powerlevel10k/powerlevel10k"
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(git
-         zsh-syntax-highlighting
-        )
+	 zsh-syntax-highlighting
+	)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -109,26 +109,31 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-#custom aliases
-alias i='sudo apt update ; sudo apt install'
-alias rmv='sudo apt purge'
+# aliases omz function
+alias omu="omz update"
+alias omr="omz reload"
+
+#aliases pacman and aur manager
+alias up="sudo pacman -Syu"
+alias rmv="sudo pacman -Rns"
+alias yup="yay -Syu --aur"
+
+# custom aliases
+alias s="sudo"
+alias n="nano"
+alias sn="sudo nano"
+alias ls='ls -lah --color=always'
+alias gs='git status'
+alias grep='grep -ni --color=always'
+
+# aliases systemd control
 alias sysen='sudo systemctl enable'
 alias sysr='sudo systemctl restart'
 alias sysstop='sudo systemctl stop'
 alias sysd='sudo systemctl disable'
 alias sysstat='systemctl status'
 alias sysstart='sudo systemctl start'
-alias up='sudo apt update ; sudo apt upgrade -y'
-alias rmve='sudo apt autoremove -y'
-alias cl='sudo apt autoclean -y'
-alias s='sudo'
-alias n='nano'
-alias sn='sudo nano'
-alias omu='omz update'
-alias omr='omz reload'
-alias ls='ls -lah --color=always'
-alias gs='git status'
-alias grep='grep -ni --color=always'
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+
