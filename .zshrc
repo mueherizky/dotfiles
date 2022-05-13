@@ -119,6 +119,7 @@ alias rmv="sudo pacman -Rnsu"
 alias i="sudo pacman -S"
 alias yup="yay -Syu --aur"
 alias yi="yay -S"
+alias search="yay -Ss"
 alias yrmv="yay -Rnsu"
 
 # custom aliases
