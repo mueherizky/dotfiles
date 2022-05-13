@@ -116,7 +116,7 @@ alias omr="omz reload"
 #aliases pacman and aur manager
 alias up="sudo pacman -Syu"
 alias rmv="sudo pacman -Rnsu"
-alias i="sudo pacman -S"
+alias i="sudo pacman -Sy"
 alias yup="yay -Syu --aur"
 alias yi="yay -S"
 alias search="yay -Ss"
