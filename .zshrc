@@ -139,6 +139,9 @@ alias sysd='sudo systemctl disable'
 alias sysstat='systemctl status'
 alias sysstart='sudo systemctl start'
 
+# fix gns3 can't open project
+alias gns="/usr/bin/gns3server --local"
+
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
