@@ -114,6 +114,7 @@ alias omu="omz update"
 alias omr="omz reload"
 
 #aliases pacman and aur manager
+alias fresh="sudo pacman -Sy"
 alias up="sudo pacman -Syu"
 alias rmv="sudo pacman -Rnsu"
 alias i="sudo pacman -Sy"
