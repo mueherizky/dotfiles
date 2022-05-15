@@ -140,5 +140,10 @@ alias sysd='sudo systemctl disable'
 alias sysstat='systemctl status'
 alias sysstart='sudo systemctl start'
 
+# aliases for vpn
+alias pc='protonvpn-cli c'
+alias pd='protonvpn-cli d'
+alias pcs='protonvpn-cli s'
+
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
