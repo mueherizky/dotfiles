@@ -123,6 +123,7 @@ alias yi="yay -S"
 alias search="yay -Ss"
 alias yrmv="yay -Rnsu"
 alias cl='sudo pacman -Sc'
+alias ycl='yay -Sc --aur'
 
 # custom aliases
 alias s="sudo"
