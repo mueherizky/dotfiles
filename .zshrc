@@ -147,5 +147,8 @@ alias pc='protonvpn-cli c'
 alias pd='protonvpn-cli d'
 alias pcs='protonvpn-cli s'
 
+# aliases for ovs
+alias startmn='sysstart ovsdb-server && sysstart ovs-vswitchd'
+
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
