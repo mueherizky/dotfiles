@@ -133,6 +133,8 @@ alias sn="sudo nano"
 alias ls='ls -lah --color=always'
 alias gs='git status'
 alias grep='grep -ni --color=always'
+alias bl='sysstart bluetooth'
+alias dbl='sysstop bluetooth'
 
 # aliases systemd control
 alias sysen='sudo systemctl enable'
