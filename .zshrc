@@ -135,6 +135,9 @@ alias gs='git status'
 alias grep='grep -ni --color=always'
 alias bl='sysstart bluetooth'
 alias dbl='sysstop bluetooth'
+alias mac='s macchanger -r'
+alias cmac='mac wlp2s0 ; sysstart NetworkManager'
+alias dmac='sysstop NetworkManager ; mac wlp2s0'
 
 # aliases systemd control
 alias sysen='sudo systemctl enable'
