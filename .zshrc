@@ -132,6 +132,7 @@ alias n="nano"
 alias sn="sudo nano"
 alias ls='ls -lah --color=always'
 alias gs='git status'
+alias graph='git log --all --decorate --oneline --graph'
 alias grep='grep -ni --color=always'
 alias bl='sysstart bluetooth'
 alias dbl='sysstop bluetooth'
