@@ -193,7 +193,7 @@ set tabstospaces
 
 ## Paint the interface elements of nano.  These are examples;
 ## by default there are no colors, except for errorcolor.
-set titlecolor brightwhite,yellow
+set titlecolor brightwhite,black
 set statuscolor brightwhite,magenta
 set errorcolor brightwhite,red
 # set selectedcolor brightwhite,magenta
@@ -202,7 +202,7 @@ set numbercolor magenta
 set keycolor green
 # set functioncolor green
 ## In root's .nanorc you might want to use:
-set titlecolor brightwhite,yellow
+set titlecolor brightwhite,black
 set statuscolor brightwhite,magenta
 set errorcolor brightwhite,red
 # set selectedcolor brightwhite,magenta
