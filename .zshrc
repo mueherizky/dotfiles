@@ -78,8 +78,8 @@ ZSH_THEME="powerlevel10k/powerlevel10k"
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(git
-	 zsh-syntax-highlighting
-	)
+         zsh-syntax-highlighting
+	      )
 
 source $ZSH/oh-my-zsh.sh
 
@@ -113,33 +113,19 @@ source $ZSH/oh-my-zsh.sh
 alias omu="omz update"
 alias omr="omz reload"
 
-#aliases pacman and aur manager
-alias fresh="sudo pacman -Syy"
-alias up="sudo pacman -Syu"
-alias yup="yay -Syu --aur"
-alias rmv="sudo pacman -Rnsu"
-alias yrmv="yay -Rnsu"
-alias i="sudo pacman -Sy"
-alias yi="yay -S"
-alias search="pacman -Ss"
-alias ysearch="yay -Ss"
-alias cl='sudo pacman -Sc'
-alias ycl='yay -Sc --aur'
+#aliases package manager
+alias fresh="sudo apt autoclean ; sudo apt clean ; sudo apt update"
+alias up="sudo update ; sudo apt upgrade -y"
+alias rmv="sudo apt remove"
+alias rmve="sudo apt autoremove -y"
+alias i="sudo apt install"
+alias pkginfo="apt show"
+alias search="apt search"
 
-# custom aliases
-alias s="sudo"
-alias n="nano"
-alias sn="sudo nano"
-alias ls='ls -lah --color=always'
+# aliases git control
 alias gs='git status'
 alias graph='git log --all --decorate --oneline --graph'
 alias gc='git commit -m'
-alias grep='grep -ni --color=always'
-alias bl='sysstart bluetooth'
-alias dbl='sysstop bluetooth'
-alias mac='s macchanger -r'
-alias cm='mac wlp2s0 ; hostnamectl set-hostname $RANDOM ; sysstart NetworkManager'
-alias dm='sysstop NetworkManager ; mac wlp2s0'
 
 # aliases systemd control
 alias sysen='sudo systemctl enable'
@@ -157,6 +143,18 @@ alias pcs='protonvpn-cli s'
 # aliases for ovs
 alias startmn='sysstart ovsdb-server && sysstart ovs-vswitchd'
 alias stopmn='sysstop ovsdb-server && sysstop ovs-vswitchd'
+
+# custom aliases
+alias s="sudo"
+alias n="nano"
+alias sn="sudo nano"
+alias ls='ls -lah --color=always'
+alias grep='grep -ni --color=always'
+alias bl='sysstart bluetooth'
+alias dbl='sysstop bluetooth'
+alias mac='s macchanger -r'
+alias cm='mac wlp2s0 ; hostnamectl set-hostname $RANDOM ; sysstart NetworkManager'
+alias dm='sysstop NetworkManager ; mac wlp2s0'
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
