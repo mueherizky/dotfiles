@@ -140,10 +140,6 @@ alias pc='protonvpn-cli c'
 alias pd='protonvpn-cli d'
 alias pcs='protonvpn-cli s'
 
-# aliases for ovs
-alias startmn='sysstart ovsdb-server && sysstart ovs-vswitchd'
-alias stopmn='sysstop ovsdb-server && sysstop ovs-vswitchd'
-
 # custom aliases
 alias s="sudo"
 alias n="nano"
