@@ -131,6 +131,7 @@ alias ga='git add'
 alias gmv='git mv'
 alias grm='git rm'
 alias gtag='git tag'
+alias gi='git init'
 
 # aliases systemd control
 alias sysen='sudo systemctl enable'
