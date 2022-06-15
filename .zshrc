@@ -125,7 +125,13 @@ alias search="apt search"
 # aliases git control
 alias gs='git status'
 alias graph='git log --all --decorate --oneline --graph'
-alias gc='git commit -m'
+alias gc='git commit'
+alias gd='git diff'
+alias gp='git push'
+alias ga='git add'
+alias gmv='git mv'
+alias grm='git rm'
+alias gtag='git tag'
 
 # aliases systemd control
 alias sysen='sudo systemctl enable'
