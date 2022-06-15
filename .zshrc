@@ -114,7 +114,7 @@ alias omu="omz update"
 alias omr="omz reload"
 
 #aliases package manager
-alias fresh="sudo apt autoclean ; sudo apt clean ; sudo apt update"
+alias fresh="sudo apt autoclean ; sudo apt update"
 alias up="sudo apt update ; sudo apt upgrade -y"
 alias rmv="sudo apt remove"
 alias rmve="sudo apt autoremove -y"
