@@ -133,6 +133,8 @@ alias grm='git rm'
 alias gtag='git tag'
 alias gi='git init'
 alias gl='git log'
+alias gr='git remote'
+alias gb='git branch'
 
 # aliases systemd control
 alias sysen='sudo systemctl enable'
