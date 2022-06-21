@@ -158,8 +158,6 @@ alias n="nano"
 alias sn="sudo nano"
 alias ls='ls -lah --color=always'
 alias grep='grep -ni --color=always'
-alias bl='sysstart bluetooth'
-alias dbl='sysstop bluetooth'
 alias mac='s macchanger -r'
 alias cm='mac wlp2s0 ; hostnamectl set-hostname $RANDOM ; sysstart NetworkManager'
 alias dm='sysstop NetworkManager ; mac wlp2s0'
