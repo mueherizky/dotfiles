@@ -121,6 +121,7 @@ alias rmve="sudo apt autoremove -y"
 alias i="sudo apt install"
 alias pkginfo="apt show"
 alias search="apt search"
+alias depends="apt depends"
 
 # aliases git control
 alias gs='git status'
