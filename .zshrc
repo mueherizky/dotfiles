@@ -140,6 +140,7 @@ alias gb='git branch'
 alias clone='git clone'
 alias gcheck='git checkout'
 alias grest='git restore'
+alias gsh='git show'
 
 # aliases systemd control
 alias sysen='sudo systemctl enable'
