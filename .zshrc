@@ -83,8 +83,12 @@ plugins=(zsh-syntax-highlighting
 
 source $ZSH/oh-my-zsh.sh
 # User configuration
+
+## activate kubectl autocompletion
 source <(kubectl completion zsh)
+## set default text editor
 export EDITOR=nano
+
 # export MANPATH="/usr/local/man:$MANPATH"
 
 # You may need to manually set your language environment
@@ -119,7 +123,7 @@ alias up="sudo apt update ; sudo apt upgrade -y"
 alias rmv="sudo apt remove"
 alias rmve="sudo apt autoremove -y"
 alias i="sudo apt update ; sudo apt install"
-alias pkginfo="apt show"
+alias show="apt show"
 alias search="apt search"
 alias depends="apt depends"
 
@@ -141,6 +145,7 @@ alias clone='git clone'
 alias gcheck='git checkout'
 alias grest='git restore'
 alias gsh='git show'
+#alias grev='git revert'
 
 # aliases systemd control
 alias sysen='sudo systemctl enable'
