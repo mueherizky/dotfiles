@@ -80,7 +80,7 @@ source $ZSH/oh-my-zsh.sh
 ## activate kubectl autocompletion
 source <(kubectl completion zsh)
 ## set default text editor
-export EDITOR=nano
+export EDITOR=vim
 
 # export MANPATH="/usr/local/man:$MANPATH"
 
