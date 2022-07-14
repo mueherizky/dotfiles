@@ -156,8 +156,6 @@ alias pcs='protonvpn-cli s'
 
 # custom aliases
 alias s="sudo"
-alias n="nano"
-alias sn="sudo nano"
 alias v="vim"
 alias sv="sudo vim"
 alias ls='ls -lah --color=always'
