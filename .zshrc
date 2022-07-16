@@ -154,6 +154,12 @@ alias pc='protonvpn-cli c'
 alias pd='protonvpn-cli d'
 alias pcs='protonvpn-cli s'
 
+# ansible aliases
+alias ag="ansible-galaxy"
+alias ap="ansible-playbook"
+alias av="ansible-vault"
+alias ad="ansible-doc"
+
 # custom aliases
 alias s="sudo"
 alias v="vim"
