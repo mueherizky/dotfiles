@@ -81,8 +81,7 @@ source $ZSH/oh-my-zsh.sh
 source <(kubectl completion zsh)
 ## set default text editor
 export EDITOR=vim
-## set theme
-fpath+=($HOME/.zsh/pure)
+
 # export MANPATH="/usr/local/man:$MANPATH"
 
 # You may need to manually set your language environment
