@@ -140,6 +140,8 @@ alias grest='git restore'
 alias gsh='git show'
 alias grev='git revert'
 alias gconf='git config'
+alias greb='git rebase'
+alias gcher='git cherry-pick'
 
 # aliases systemd control
 alias sysen='sudo systemctl enable'
