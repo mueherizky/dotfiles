@@ -143,6 +143,7 @@ alias gconf='git config'
 alias greb='git rebase'
 alias gcher='git cherry-pick'
 alias gm='git merge'
+alias gsta='git stash'
 
 # aliases systemd control
 alias sysen='sudo systemctl enable'
