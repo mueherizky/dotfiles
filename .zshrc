@@ -168,6 +168,17 @@ alias ap="ansible-playbook"
 alias av="ansible-vault"
 alias ad="ansible-doc"
 
+# kubectl aliases
+alias k='kubectl'
+alias kg='k get'
+alias kc='k create'
+alias kex='k exec -it'
+alias ka='k apply -f'
+alias kdel='k delete'
+alias kdesc='k describe'
+alias kl='k logs'
+alias ked='k edit'
+
 # custom aliases
 alias s="sudo"
 alias v="vim"
