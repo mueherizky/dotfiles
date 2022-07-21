@@ -125,8 +125,8 @@ alias fetch='sudo nala fetch'
 
 # aliases git control
 alias gs='git status'
-alias graph='git log --all --decorate --oneline --graph'
-alias gc='git commit'
+alias graph='git log --oneline --graph'
+alias gc='git commit -m'
 alias gd='git diff'
 alias gp='git push'
 alias ga='git add'
