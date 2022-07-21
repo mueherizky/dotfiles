@@ -121,6 +121,7 @@ alias show="nala show"
 alias search="nala search"
 alias list='nala list'
 alias depends="apt depends"
+alias fetch='sudo nala fetch'
 
 # aliases git control
 alias gs='git status'
