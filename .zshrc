@@ -110,14 +110,16 @@ export EDITOR=vim
 alias omu="omz update"
 alias omr="omz reload"
 
-#aliases package manager
-alias fresh="sudo apt autoclean ; sudo apt update"
-alias up="sudo apt update ; sudo apt upgrade -y"
-alias rmv="sudo apt remove"
-alias rmve="sudo apt autoremove -y"
-alias i="sudo apt update ; sudo apt install"
-alias show="apt show"
-alias search="apt search"
+# use nala instead of apt
+# aliases package manager
+alias fresh="sudo apt autoclean ; sudo nala update"
+alias up="sudo nala update ; sudo nala upgrade -y"
+alias rmv="sudo nala purge"
+alias rmve="sudo nala autoremove -y"
+alias i="sudo nala update ; sudo nala install"
+alias show="nala show"
+alias search="nala search"
+alias list='nala list'
 alias depends="apt depends"
 
 # aliases git control
@@ -159,6 +161,7 @@ alias pd='protonvpn-cli d'
 alias pcs='protonvpn-cli s'
 
 # ansible aliases
+alias a='ansible'
 alias ag="ansible-galaxy"
 alias ap="ansible-playbook"
 alias av="ansible-vault"
