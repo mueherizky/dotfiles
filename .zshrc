@@ -170,6 +170,7 @@ alias ad="ansible-doc"
 
 # kubectl aliases
 alias k='kubectl'
+alias kv='k version'
 alias kg='k get'
 alias kc='k create'
 alias kex='k exec -it'
