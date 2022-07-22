@@ -180,6 +180,7 @@ alias db='do build -t'
 alias dex='do exec -it'
 alias dl='do logs'
 alias dstat='do stats'
+alias dstop='do stop'
 
 # kubectl aliases
 alias k='kubectl'
