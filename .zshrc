@@ -168,6 +168,19 @@ alias ap="ansible-playbook"
 alias av="ansible-vault"
 alias ad="ansible-doc"
 
+# docker aliases
+alias do='docker'
+alias dr='do run -itd'
+alias dp='do push'
+alias di='do images'
+alias drm='do rm'
+alias drmi='do rmi'
+alias dps='do ps -a'
+alias db='do build -t'
+alias dex='do exec -it'
+alias dl='do logs'
+alias dstat='do stats'
+
 # kubectl aliases
 alias k='kubectl'
 alias kv='k version'
