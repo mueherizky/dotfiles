@@ -181,6 +181,7 @@ alias dex='do exec -it'
 alias dl='do logs'
 alias dstat='do stats'
 alias dstop='do stop'
+alias dins='do inspect'
 
 # kubectl aliases
 alias k='kubectl'
